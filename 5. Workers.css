@@ -1,0 +1,168 @@
+body {
+    background: rgb(2, 0, 128);
+}
+#container {
+  width: auto;
+  background: rgb(2, 0, 128);
+  
+  border: 2px solid #e6d200;
+ display: flex;
+ flex-direction: column; /*row column*/
+ /*justify-content: space-around;*/
+ align-items: stretch;
+}
+
+#header {
+  background: rgb(235, 235, 235);
+  border: 2px solid #e6d200;
+  margin: 0px;
+  padding: 5px;
+  flex:2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  }
+
+  #image_logo {
+
+  }
+
+  #text_logo {
+    margin-left: 352px;
+  }
+
+  #navigation {
+  /*background: rgb(246, 249, 250);
+  border: 2px solid #e6d200;*/
+  margin: 5px;
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  }
+
+  .content {
+  background: rgb(246, 249, 250);
+  border: 2px solid #e6d200;
+  margin: 3px;
+  padding: 5px;
+  flex:5;
+  display: flex;
+  flex-direction: row; /* row-reverse; можно поменять местами блоки*/
+  }
+
+  #footer {
+  background: rgb(2, 0, 128);
+  border: 2px solid #e6d200;
+  margin: 3px;
+  padding: 5px;
+  flex:2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  }
+
+
+  .leftpanel {
+ /* background: rgb(177, 181, 182);*/
+  border: 2px solid #e6d200;
+  margin: 3px;
+  padding: 5px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .centerpanel {
+  /* background: rgb(177, 181, 182);*/
+  border: 2px solid #e6d200;
+  margin: 3px;
+  padding: 5px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .rightpanel {
+  /* background: rgb(177, 181, 182);*/
+  border: 2px solid #e6d200;
+  margin: 3px;
+  padding: 5px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  }
+  .doppanel {
+  /* background: rgb(177, 181, 182);*/
+  border: 2px solid #e6d200;
+  margin: 3px;
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+  /*   меню  ----------------*/
+
+ul, li {
+margin: 0;
+padding: 0;
+}
+ul {
+list-style: none;
+}
+li {
+float: left;
+width: auto;
+}
+a {
+background: rgb(2, 0, 128);
+color: #ffffff;
+/*display: block; */
+font: bold 13px sans-serif;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+font-family: 'Righteous', cursive;
+font-size: 16px;
+}
+li:hover a {
+background: #e69d00;
+}
+
+
+/* Настройки для текста*/
+
+p {
+  text-align: justify;/*left right center*/
+  margin-right: 30px;
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 20px;/* расстояние между строками*/
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+}
+
+.text_kont {
+  font-size: 20px;
+  line-height: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 50px;
+}
+
+.uvit {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
